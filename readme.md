@@ -1,4 +1,4 @@
-# django 버서 구동하기
+# django 서버 구동하기
 
 ## github 연결하기
 **mstec_django 리포지토리 생성 후 연결**
@@ -12,29 +12,29 @@ $git conifg -- global user.name
 $ git init
 
 4. 연결하기
-$ git remote add origin 'https://깃허브 리포지토리 주소'
-연결후 확인하기
+'$ git remote add origin 'https://깃허브 리포지토리 주소'
+연결후 확인하기'
 '$ git remote -v'
 
 
-##2. Django 프로젝트 시작하기
+## 2. Django 프로젝트 시작하기
 1. 디랙토리 생성 후 이동하기
 pwd : 현재 디렉토리 확인 
 cd : 이동할 디렉토리
 cd .. : 뒤로가기
 
 2. 가상환경 생성(이놈이 중요)
-'python -m venv myvenv(얘는 그냥 이름 짓기 나름)'
+'python -m venv myenv(얘는 그냥 이름 짓기 나름)'
 
 3. 가상환경 실행
-'$ source myvenv/Scripts/activate'
+'$ source myenv/Scripts/activate'
 
 4. 가상환경 끄기
-'$deactivate'
+'$ deactivate'
 
 5. 가상환경 켜졌는지 확인 (venv) pip freeze 한번 해보자.
 
-6.Django 다운로드
+6. Django 다운로드
 '$pip install django==4.2.4'
 
 7. dashboard 프로젝트 생성
