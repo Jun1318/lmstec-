@@ -40,7 +40,7 @@ cd .. : 뒤로가기
 
 5. 가상환경 켜졌는지 확인 (venv) pip freeze 한번 해보자.
 
-6.Django 다운로드
+6. Django 다운로드
 '$pip install django==4.2.4'
 
 7. dashboard 프로젝트 생성
