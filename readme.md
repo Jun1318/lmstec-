@@ -57,8 +57,8 @@ cd .. : 뒤로가기
 **작업을 한 뒤**   
 '$ git add .'(내가 작업한 내용 모두를 staging area 올리겠다.)
 
-'$git commit -m '커밋명' (커밋하기)
-'$git push origin master (푸쉬하기)
+'$git commit -m '커밋명' (커밋하기)   
+'$git push origin master (푸쉬하기)   
 
 -----------------------------------
 
